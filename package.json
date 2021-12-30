@@ -2,9 +2,9 @@
   "name": "Thunderbite test",
   "version": "1.0.0",
   "description": "Project test submission for Thunderbite",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "lint": "jshint ./src/index.js --show-non-errors",
+    "lint": "jshint ./src/App.js --show-non-errors",
     "test": "npm run lint",
     "bundle:dev": "webpack --config webpack.config.js --progress --mode=development",
     "bundle:prod": "webpack --config webpack.config.js --progress --mode=production",
